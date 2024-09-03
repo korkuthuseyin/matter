@@ -1,0 +1,3 @@
+/home/korkut/Desktop/projects/matter/build/CMakeFiles/matter_sdk.dir
+/home/korkut/Desktop/projects/matter/build/CMakeFiles/edit_cache.dir
+/home/korkut/Desktop/projects/matter/build/CMakeFiles/rebuild_cache.dir
