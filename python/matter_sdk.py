@@ -1,4 +1,5 @@
 import ctypes
+import os
 
 class MatterDevice:
     def __init__(self, ip, port, passcode, discriminator):
