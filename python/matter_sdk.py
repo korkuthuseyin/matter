@@ -1,5 +1,6 @@
 import ctypes
 import os
+import time
 
 class MatterDevice:
     def __init__(self, ip, port, passcode, discriminator):
@@ -22,8 +23,7 @@ class MatterDevice:
     def control(self, command):
         result = self.matter_sdk_lib.control_device(command.encode('utf-8'))
         print("Control result:", result.decode('utf-8'))
-
+        
 if __name__ == "__main__":
     device = MatterDevice("127.0.0.1", 5540, "20202021", "3840")
     device.control("turn_on")
-
